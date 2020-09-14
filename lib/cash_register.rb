@@ -16,7 +16,7 @@ class CashRegister
   end
   
   def apply_discount
-    
+    @discount/100.to_f
   end
   
   def items
