@@ -20,6 +20,7 @@ class CashRegister
         i += 1
     else
       @items << title
+    end
     @total += (price * quantity)
   end
   
