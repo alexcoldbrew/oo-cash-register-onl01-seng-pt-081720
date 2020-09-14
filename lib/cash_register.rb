@@ -23,7 +23,7 @@ class CashRegister
       @items << title
     end
     self.total += (price * quantity)
-    self.last_transaction = 
+    self.last_transaction = (price * quantity)
     @total
   end
   
